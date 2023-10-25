@@ -1,0 +1,23 @@
+.line-item {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.item {
+  width: 500px;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.image {
+  padding-right: 20px;
+}
+
+.description {
+  font-size: medium;
+  padding: 10px;
+}
