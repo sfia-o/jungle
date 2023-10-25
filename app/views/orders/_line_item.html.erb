@@ -1,0 +1,13 @@
+<div class="item">
+  <h5><strong><%= line_item.product.name %></strong></h5>
+  <p><%= line_item.quantity %> x <%= humanized_money_with_symbol line_item.total_price %>
+</div>
+<div class="line-item">
+  <div class="image">
+    <%= image_tag line_item.product.image.thumb.url %>
+  </div>
+  <div class="description">
+    <p><%= line_item.product.description %></p>
+  </div>
+</div>
+
