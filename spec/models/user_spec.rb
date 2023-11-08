@@ -11,7 +11,15 @@ RSpec.describe User, type: :model do
       expect(user).to_not be_valid
     end
 
+    it 'requires email, first name and last name' do
+      user = User.new
+      expect(user).to_not be_valid
+    end
+
     
+
+
+
 
     end
 end
