@@ -1,5 +1,4 @@
-/// <reference types="cypress" />
-
+// <reference types="cypress" />
 
 // Welcome to Cypress!
 //
