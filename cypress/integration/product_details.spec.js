@@ -5,7 +5,7 @@ describe('visit product details page', () => {
   });
   
   it('should navigate from homepage to product page', () => {
-    cy.get('.product').first().click();
+    cy.get('.product img').first().click();
     
   });
 
