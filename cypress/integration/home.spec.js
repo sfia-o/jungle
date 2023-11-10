@@ -1,5 +1,3 @@
-
-
 describe('visit homepage', () => {
 
   beforeEach(() => {
